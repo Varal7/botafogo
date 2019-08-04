@@ -10,7 +10,8 @@
 
      <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
      <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+<script src="https://kit.fontawesome.com/613c24d430.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
      <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 
@@ -76,9 +77,9 @@
                 </div>
               </div>
 
-              <a class="icon" href="http://facebook.com/mitbdt"><i class="fa fa-facebook"></i><span> Facebook</span></a>
-              <a class="icon" href="https://www.instagram.com/explore/tags/mitbdt/?hl=en"><i class="fa fa-instagram"></i><span> Instagram</span></a>
-              <a class="icon" href="http://twitter.com/MIT_Ballroom/"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+              <a class="icon" href="http://facebook.com/mitbdt"><i class="fab fa-facebook-square"></i><span> Facebook</span></a>
+              <a class="icon" href="https://www.instagram.com/explore/tags/mitbdt/?hl=en"><i class="fab fa-instagram"></i><span> Instagram</span></a>
+              <a class="icon" href="http://twitter.com/MIT_Ballroom/"><i class="fab fa-twitter"></i><span> Twitter</span></a>
               <a class="icon" href="https://ballroom.quach.io/index.php/contact-us/"><i class="fa fa-envelope"></i><span> Contact</a>
 
             </nav>

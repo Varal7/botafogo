@@ -63,6 +63,12 @@ img {
   margin: 0px;
 }
 
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -149,6 +155,10 @@ nav a {
 
 nav a.icon {
   width: 50px;
+  padding-top: 13px;
+}
+nav a.icon i{
+  font-size: 20px;
 }
 
 nav a.icon span{
@@ -249,6 +259,7 @@ nav a:hover,
     right: 0px;
     overflow: scroll;
     max-height: 90vh;
+    padding-bottom: 20px;
   }
   nav.responsive a {
     float: none;
@@ -308,6 +319,30 @@ nav a:hover,
 	content: "\00BB \0020";
 }
 
+#content .hr {
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 0;
+  margin: 0 auto;
+  max-width: 300px;
+  background-position: 50%;
+  box-sizing: border-box;
+  height: 1px;
+  color: red;
+  /* background: linear-gradient( 90deg, rgba(red, 0), rgba(red, 1) 50%, rgba(red, 0) 100%); */
+  background: linear-gradient(0.25turn, rgba(33, 33, 33, 0), rgba(33, 33, 33, 1) 50%, rgba(33, 33, 33, 0) 100% );
+}
+
+hr.separator {
+  margin: 1em auto 3em auto;
+  max-width: 500px;
+}
+
+#sidebar hr {
+  margin: 1em auto 0 auto;
+}
 
 /* Main  */
 
@@ -355,6 +390,10 @@ main {
 }
 .btn-main:hover {
   background-color: #999;
+}
+
+.btn-main .icon {
+  margin-right: 20px;
 }
 
 .btn-small {

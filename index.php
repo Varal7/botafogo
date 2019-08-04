@@ -19,7 +19,7 @@
             <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p>
             <?php the_excerpt(); ?>
             <div class="btn-container">
-              <p><a href="<?php the_permalink()?>" class="btn-main">Learn more</a></p>
+              <p><a href="<?php the_permalink()?>" class="btn-main"><i class="icon fas fa-shoe-prints"></i><span>Learn more</span></a></p>
             </div>
             <?php endwhile; ?>
           </div>
