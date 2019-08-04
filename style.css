@@ -1,0 +1,592 @@
+/*
+Theme Name: Botafogo
+Theme URI: http://github.com/varal7/botafogo
+Description: MITBDT Website Theme (designed initially for Wordpress)
+Version: 0.1
+Author: mitbdt-www@mit.edu
+Author URI: http://ballroom.mit.edu
+
+    Based on Alemana v0.1
+    The Alemana theme was designed and built by the MIT ballroom
+    dance team
+
+	Based on Kubrick v1.5
+	 http://binarybonsai.com/kubrick/
+
+	The Kubrick theme was designed and built by Michael Heilemann,
+	whose blog you will find at http://binarybonsai.com/
+
+*/
+
+/* ---------------------------------------------
+              General
+   --------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p{
+  font-weight: 100;
+  padding-bottom: 0.7em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+}
+
+a:hover {
+  color: #333;
+  background-color: #999;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+
+
+
+/* ---------------------------------------------
+              Specific
+   --------------------------------------------- */
+
+/* Header */
+
+header {
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  z-index: 10;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo {
+  display: inline-block;
+  position: fixed;
+}
+
+
+#logo img{
+  margin: 5px;
+  height: 40px;
+}
+
+#searchbar {
+  display: inline-block;
+  position: relative;
+  left: 60px;
+  width: 200px;
+}
+
+#title {
+  box-sizing: border-box;
+  margin-left: 5px;
+  display: inline-block;
+  position: relative;
+  font-size: 32px;
+  height: 50px;
+  padding: 4px;
+  left: 50px;
+  text-decoration: none;
+}
+
+#title a {
+  color: #999;
+  margin: 0px;
+  font-weight: 100;
+  height: 50px;
+}
+
+#title a:hover {
+  color: #fff;
+  background-color:inherit;
+}
+
+
+nav {
+  padding: 0px;
+  float: right;
+  display: block;
+  margin-right: 40px;
+}
+
+nav a {
+  box-sizing: border-box;
+  float:left;
+  height: 50px;
+  width: 80px;
+  padding: 15px 0px;
+  text-align: center;
+  color: #999;
+  font-size: 15px;
+}
+
+nav a.icon {
+  width: 50px;
+}
+
+nav a.icon span{
+  display: none;
+}
+
+nav a:hover,
+.dropdown:hover .droptbtn {
+  color: #fff;
+}
+
+.dropdown {
+  float: left;
+  padding: 14px 0px;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: #999;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  margin: 19px 0px;
+  position: absolute;
+  background-color: #999;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  width: 160px;
+}
+
+.dropdown-content a:hover {
+  background-color: #222;
+}
+
+
+#menu {
+  display: none;
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 30px;
+  border: 1px solid #333;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+#menu:hover {
+  background-color: #333;
+}
+
+
+@media screen and (max-width: 750px) {
+  nav a, .dropdown, .dropbtn {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  nav {
+    margin-right: 5px;
+  }
+  #title {
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav.responsive {
+    position: fixed;
+    background-color: #222;
+    width: 200px;
+    float: none;
+    right: 0px;
+    overflow: scroll;
+    max-height: 90vh;
+  }
+  nav.responsive a {
+    float: none;
+    margin: 0px auto;
+    display: block;
+    text-align: left;
+    width: 160px;
+    padding-left: 10px;
+  }
+  nav.responsive .dropdown {
+    float: none;
+    display: block;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  nav.responsive .dropdown-content {
+    position: relative;
+    display:block;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    background-color: inherit;
+  }
+  nav.responsive .dropdown-content a {
+    padding: 15px 10px;
+    color: #999;
+  }
+  nav.responsive .dropdown-content a:hover {
+    color: #fff;
+    background-color: #999;
+  }
+  nav.responsive a.icon span{
+    display: inline;
+    margin-left: 5px;
+  }
+}
+
+
+/* Main  */
+
+main {
+  top: 50px;
+  display: block;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* Event spotlight */
+
+.jumbotron .row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.jumbotron .container {
+  margin: 100px 20px;
+  padding: 20px 30px;
+  background-color: rgba(33, 33, 33, 0.75);
+  color: #ccc;
+  position: absolute;
+  width: 500px;
+  z-index: 5;
+}
+
+
+.btn-container {
+  margin: 40px auto;
+  width: 300px;
+}
+
+.btn-main {
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+.btn-main:hover {
+  background-color: #999;
+}
+
+.btn-small {
+  display:block;
+  width: 250px;
+  text-align: center;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .jumbotron .container {
+    margin: 100px 0px;
+    width: 100%;
+  }
+}
+
+
+/* Section layouts */
+
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 30px;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.sidebar-layout {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: minmax(300px, 3fr) 1fr;
+}
+
+@media screen and (max-width: 750px) {
+  .sidebar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.column {
+  padding: 10px;
+}
+
+section {
+  max-width: 1010px;
+  margin: 20px auto;
+}
+
+/* Description */
+
+#mitbdt-img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+div.card{
+  width: 100%;
+  height: 160px;
+  margin: 0px;
+}
+
+.cards a {
+  color: white;
+  display: block;
+  height: 160px;
+}
+
+.card p {
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+  z-index:-1;
+  text-shadow: 2px 2px #333;
+  font-size: 40px;
+}
+
+
+#card-join-us {
+  background-image: url("https://i.imgur.com/c0akdIH.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#card-donate {
+  background-image: url("https://i.imgur.com/5UTwkLd.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+div.card:hover{
+  background-color: rgba(242, 204, 56, 0.701961);
+  transition: background-color 0.3s;
+}
+
+#news h2 {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #ccc;
+  color: #787878;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer img {
+  max-height: 20px;
+}
+
+footer li { display: inline; }
+
+footer li:not(:first-child):before { content: "| "; }
+
+footer a.hidden_link {
+    /* Hide the Wordpress login and W3 verifier links. */
+    color: inherit;
+    text-decoration: none;
+    cursor: text;
+    background-color: inherit;
+}
+
+/* Video */
+
+.controls {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: #999;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+}
+
+#player-container {
+  display: none;
+}
+
+#mute {
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Carousel */
+
+.slide
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron {
+  /* Only display if JS is activated and once page is loaded */
+  display: none;
+}
+
+
+.slick-slider {
+  z-index: 1;
+}
+
+.slick-arrow {
+  display:block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: 0px solid #333;
+  padding: 0px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+  transition: background-color 1s;
+  z-index: 5;
+  position: absolute;
+  top: 20px;
+}
+
+.slick-arrow:hover {
+  background-color: #999;
+  color: #333;
+}
+
+.slick-prev {
+  right: 80px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.overlay {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  bottom: 0;
+  min-height: 80px;
+  z-index: 2;
+  display: table;
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+.table-row {
+  display: table-row;
+}
+
+.credit,
+.caption {
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  color: #ccc;
+}
+
+.caption {
+  vertical-align: bottom;
+  text-shadow: 2px 2px #333;
+  min-height: 60px;
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+  line-height: 12px;
+}
