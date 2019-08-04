@@ -47,7 +47,7 @@
         $(document).ready(function() {
           carousel();
           fixHeight();
-        }
+        });
         </script>
 
 </body>
