@@ -340,6 +340,16 @@ hr.separator {
   max-width: 500px;
 }
 
+@media screen and (max-width: 500px) {
+  hr {
+    max-width: 50%;
+  }
+
+  hr.separator {
+    max-width: 100%;
+  }
+}
+
 #sidebar hr {
   margin: 1em auto 0 auto;
 }
