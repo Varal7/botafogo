@@ -37,6 +37,7 @@
           $('.carousel').height(Math.max(height, 600));
           $('.slide').height(Math.max(height, 600));
           $('.slick-arrow').height(Math.max(height, 600));
+          $(".sidebar-layout").css("margin-top", $('header').height())
         }
 
         $( window ).resize(function() {
