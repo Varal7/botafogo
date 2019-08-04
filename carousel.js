@@ -1,7 +1,7 @@
 function carousel() {
   $(".jumbotron").show();
   $(".carousel").slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 6000,
     infinite: true,
     speed: 100,
