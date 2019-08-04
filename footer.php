@@ -27,7 +27,7 @@
         <script src="<?php echo bloginfo('template_url') ?>/carousel.js"></script>
 
         <script>
-        function fullSize() {
+        function fixHeight() {
         <?php  if ((isset($_GET['full']) && ($_GET['full'] == 1))) { ?>
             const height =  $( window ).height() - 50;
         <?php } else { ?>
@@ -36,12 +36,18 @@
           $('.jumbotron').height(Math.max(height, 600));
           $('.carousel').height(Math.max(height, 600));
           $('.slide').height(Math.max(height, 600));
+          $('.slick-arrow').height(Math.max(height, 600));
         }
 
         $( window ).resize(function() {
-          fullSize();
+          fixHeight();
         });
-        fullSize();
+        </script>
+        <script>
+        $(document).ready(function() {
+          carousel();
+          fixHeight();
+        }
         </script>
 
 </body>

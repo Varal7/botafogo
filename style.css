@@ -525,45 +525,50 @@ footer a.hidden_link {
 }
 
 .slick-arrow {
+  border-radius: none;
   display:block;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 520px;
   text-align: center;
   margin: 0px auto;
-  border-radius: 5px;
   border: 0px solid #333;
   padding: 0px;
   font-size: 30px;
   color: #fff;
-  background-color: #333;
-  transition: background-color 1s;
   z-index: 5;
   position: absolute;
-  top: 20px;
+  top: 0px;
+  background: linear-gradient(0.25turn, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
 }
 
 .slick-arrow:hover {
-  background-color: #999;
+  background: linear-gradient(0.25turn, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
   color: #333;
 }
 
 .slick-prev {
-  right: 80px;
+  left: 0px;
 }
 
 .slick-next {
-  right: 20px;
+  right: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .slick-arrow {
+    visibility: hidden;
+  }
 }
 
 .overlay {
   position: absolute;
-  left: 0px;
+  left: 30px;
   width: 100%;
   bottom: 0;
   min-height: 80px;
   z-index: 2;
   display: table;
-  background-color: rgba(33, 33, 33, 0.5);
+  background-color: rgba(33, 33, 33, 0.3);
 }
 
 .table-row {
