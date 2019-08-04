@@ -65,7 +65,7 @@
 
                 <a href="<?php bloginfo('url') ?>/index.php/2016/06/mitempire/">MIT/Empire</a>
 
-                <a href="<?php bloginfo('url') ?>/comp/">MIT Open</a>
+                <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
 
                 <a <?php if (is_page('open-dancer-hall-of-fame')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/open-dancer-hall-of-fame/">Photos</a>
 
