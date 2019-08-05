@@ -1,8 +1,8 @@
     <div id="sidebar" class="column">
 
-          <img src="http://ballroom-media.mit.edu/archive/Photos/Website/Static_Content/Logos/mitbdt_sm.png" alt="MITBDT" class="center" />
-          <hr />
+          <img src="http://ballroom-media.mit.edu/archive/Photos/Website/Static_Content/Logos/mitbdt_sm.png" alt="MITBDT" class="" />
 
+<hr class="logo"/>
           <br />
           <h2><a href="<?php bloginfo('url') ?>/index.php/category/upcoming-events/">Upcoming Events</a></h2>
 

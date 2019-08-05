@@ -15,11 +15,11 @@
                   $recentPosts = new WP_Query();
                   $recentPosts->query('showposts=1&order=ASC&category_name=Upcoming Events');
               ?><?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-            <h1><?php the_title(); ?></h1>
+            <h1><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h1>
             <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p>
             <?php the_excerpt(); ?>
             <div class="btn-container">
-              <p><a href="<?php the_permalink()?>" class="btn-main"><i class="icon fas fa-shoe-prints"></i><span>Learn more</span></a></p>
+              <a href="<?php the_permalink()?>" class="btn-main"><i class="icon fas fa-shoe-prints"></i><span>Learn more</span></a>
             </div>
             <?php endwhile; ?>
           </div>
@@ -85,9 +85,11 @@
                     <?php the_excerpt(); ?>
 
                <?php endwhile; ?>
-              <p><a href="https://ballroom.quach.io/index.php/category/upcoming-events/" class="btn-small">See all upcoming events</a></p>
+              <div id="more-events">
+                <p><a href="<?php bloginfo('url') ?>/index.php/category/upcoming-events/" class="btn-small">See all upcoming events</a></p>
 
-              <p><a href="https://ballroom.quach.io/index.php/category/events-archive/" class="btn-small">See past events</a></p>
+                <p><a href="<?php bloginfo('url') ?>/index.php/category/events-archive/" class="btn-small">See past events</a></p>
+              </div>
           </div>
 
           <div id="description" class="column">
@@ -99,11 +101,11 @@ Interested in learning how to dance competitive ballroom? Our classes start in t
 <a href="http://mailman.mit.edu/mailman/listinfo/mitbdt-events" class="external">Click here</a> to sign up for our public mailing list.
                </p>
           <div class="cards">
-            <a id="card-join-us" href="https://ballroom.quach.io/index.php/join/"><div class="card">
+            <a id="card-join-us" href="<?php bloginfo('url') ?>/index.php/join/"><div class="card">
                 <p>Join us</p>
               </div>
             </a>
-            <a id="card-donate" href="https://ballroom.quach.io/index.php/giving">
+            <a id="card-donate" href="<?php bloginfo('url') ?>/index.php/giving">
               <div class="card">
                 <p>Donate</p>
             </div>
@@ -131,7 +133,7 @@ Interested in learning how to dance competitive ballroom? Our classes start in t
 
                <?php endwhile; ?>
             <p class="no-margin"></p>
-          <p class="no-margin"><a href="https://ballroom.quach.io/index.php/category/events-archive/" class="btn-small">Visit the news archive</a></p>
+          <p class="no-margin"><a href="<?php bloginfo('url') ?>/index.php/category/news/" class="btn-small">Visit the news archive</a></p>
           </div>
         </div>
     </section>

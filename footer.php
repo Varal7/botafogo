@@ -6,6 +6,9 @@
 
           <li>View <a href="index.php/about-inclusion/">our policy</a> on inclusivity</li>
         </ul>
+        <ul>
+               <li>     MITBDT is an <a href="http://web.mit.edu/asa/about/">ASA</a>-recognized student group sponsored by the <a href="https://gsc.mit.edu">GSC</a></li>
+        </ul>
           <ul>
                <li>     MITBDT is a 501(<a class="hidden_link" href="http://validator.w3.org/check/referer">c</a>)<a class="hidden_link" href="<?php bloginfo('url') ?>/wordpress/wp-admin/">3</a> organization </li>
           <li>     Contact the <a href="mailto:mitbdt-www@mit.edu" class="mailto">Webmaster</a> </li>
