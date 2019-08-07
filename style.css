@@ -150,7 +150,6 @@ header .container {
 
 #title a:hover {
   color: #fff;
-  background-color:inherit;
 }
 
 
@@ -187,6 +186,7 @@ nav a.icon span{
 nav a:hover,
 .dropdown:hover .droptbtn {
   color: #fff;
+  background-color:#333;
 }
 
 .dropdown {
@@ -308,7 +308,7 @@ nav a:hover,
   }
   nav.responsive .dropdown-content a:hover {
     color: #fff;
-    background-color: #999;
+    background-color: #333;
   }
   nav.responsive a.icon span{
     display: inline;
