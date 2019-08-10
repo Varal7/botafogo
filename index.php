@@ -54,7 +54,7 @@
               </div>
             </div>
           </div>
-        <!--
+<!--
           <div class="slide" style="background-image: url('https://i.imgur.com/MoBKiTH.jpg')">
             <div class="overlay">
               <div class="table-row">
@@ -65,7 +65,6 @@
               </div>
             </div>
           </div>
--->
           <div class="slide" style="background-image: url('https://i.imgur.com/qjC86Hg.jpg')">
             <div class="overlay">
               <div class="table-row">
@@ -96,6 +95,7 @@
               </div>
             </div>
           </div>
+-->
 
         </div>
       </div>
