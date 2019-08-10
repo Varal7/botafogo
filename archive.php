@@ -24,17 +24,18 @@
 		<h2 class="pagetitle">Blog Archives</h2>
  	  <?php } ?>-->
 	  	<?php if (is_category('Upcoming Events')) {?>
-		<p> Past events are located in the <a
-                href="<?php bloginfo('url') ?>/index.php?cat=6"> Events Archive.</a></p>
+		<p> <a href="http://mailman.mit.edu/mailman/listinfo/mitbdt-events" class="external">Click here</a> to sign up to our events mailing list.</p>
+		<p><a href="<?php bloginfo('url') ?>/index.php?cat=6">« Past events</a></p>
 		<?php } elseif (is_category('News')) {?>
+
 		<p> Past news items are located in the <a
                 href="<?php bloginfo('url') ?>/index.php?cat=9">News Archive.</a></p>
                   <?php } ?>
 
 
                   <div class="navigation">
-                          <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-                          <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+                          <div class="alignleft"><p><?php next_posts_link('&laquo; Older Entries') ?></p></div>
+                          <div class="alignright"><p><?php previous_posts_link('Newer Entries &raquo;') ?></p></div>
                   </div>
                                   <hr class="separator">
 
@@ -54,8 +55,11 @@
 		<?php endwhile; ?>
 
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+                  <div class="alignleft"><p><?php next_posts_link('&laquo; Older Entries') ?></p></div>
+                  <div class="alignright"><p><?php previous_posts_link('Newer Entries &raquo;') ?></p></div>
+                  <?php if (is_category('Upcoming Events')) {?>
+                  <p><a href="<?php bloginfo('url') ?>/index.php?cat=6">« Past events</a></p>
+                  <?php } ?>
 		</div>
 
 	<?php else : ?>

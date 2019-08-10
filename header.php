@@ -39,9 +39,12 @@
 
      <header>
         <div class="container">
+        <!--
           <div id="logo">
                <a href="<?php bloginfo('url') ?>/"><img src="http://ballroom-media.mit.edu/archive/Photos/Website/Static_Content/Logos/mitbdt_logo.png"  alt="MITBDT Logo" /></a>
           </div>
+-->
+
 
           <div id="title">
             <a href="<?php bloginfo('url') ?>/">MIT Ballroom Dance Team</a>
@@ -54,6 +57,8 @@
 
                 <a <?php if (is_page('giving')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/giving">Giving</a>
 
+                <!-- <a href="http://ballroom.mit.edu/comp/">MIT Open</a> -->
+
             <div class="dropdown">
               <button class="dropbtn">More
                   <i class="fa fa-caret-down"></i>
@@ -63,11 +68,14 @@
 
                 <a <?php if (is_page('about')||is_page('about_ballroom')||is_page('about-our-coaches')||is_page('ycn-proficiency-points')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/about/">About</a>
 
+                <a href="<?php bloginfo('url') ?>/index.php/category/upcoming-events/">Events</a>
+
                 <a href="<?php bloginfo('url') ?>/index.php/2016/06/mitempire/">MIT/Empire</a>
 
                 <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
 
                 <a <?php if (is_page('open-dancer-hall-of-fame')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/open-dancer-hall-of-fame/">Photos</a>
+
 
                 <a <?php if (is_page('results')||is_page('team-results-archive')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/results">Results</a>
 

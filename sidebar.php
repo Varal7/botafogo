@@ -4,6 +4,9 @@
 
 <hr class="logo"/>
           <br />
+                <p><a href="<?php bloginfo('url') ?>/index.php/sign-up/" class="btn-small">Sign up</a></p>
+                <br />
+
           <h2><a href="<?php bloginfo('url') ?>/index.php/category/upcoming-events/">Upcoming Events</a></h2>
 
           <?php
@@ -11,11 +14,13 @@
                  $recentPosts->query('showposts=5&order=ASC&category_name=Upcoming Events'); ?>
 
           <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
+             <div class="sidebar-entry">
 
                    <h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-     <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p>
+     <!-- <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p> -->
 
                <?php the_excerpt(); ?>
+             </div>
 
           <?php endwhile; ?>
 
