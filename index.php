@@ -24,6 +24,16 @@
           </div>
         </div>
         <div class="carousel">
+          <div class="slide" style="background-image: url('https://i.imgur.com/1ZxuYCN.jpg')">
+            <div class="overlay">
+              <div class="table-row">
+                <span class="caption">Alexander (PhD '19) and Mariela at MIT Open 2019</span>
+              </div>
+              <div class="table-row">
+                <span class="credit"></span>
+              </div>
+            </div>
+          </div>
           <div class="slide" style="background-image: url('https://i.imgur.com/FPuvVqy.jpg')">
             <div class="overlay">
               <div class="table-row">
@@ -41,16 +51,6 @@
               </div>
               <div class="table-row">
                 <span class="credit">Credit: Emily Chen</span>
-              </div>
-            </div>
-          </div>
-          <div class="slide" style="background-image: url('https://i.imgur.com/1ZxuYCN.jpg')">
-            <div class="overlay">
-              <div class="table-row">
-                <span class="caption">Alexander (PhD '19) and Mariela at MIT Open 2019</span>
-              </div>
-              <div class="table-row">
-                <span class="credit"></span>
               </div>
             </div>
           </div>
