@@ -24,36 +24,77 @@
           </div>
         </div>
         <div class="carousel">
+          <div class="slide" style="background-image: url('https://i.imgur.com/FPuvVqy.jpg')">
+            <div class="overlay">
+              <div class="table-row">
+                <span class="caption">Corey ('17) and Clio at MIT Open 2019</span>
+              </div>
+              <div class="table-row">
+                <span class="credit"></span>
+              </div>
+            </div>
+          </div>
           <div class="slide" style="background-image: url('https://i.imgur.com/C9wSZUs.jpg')">
             <div class="overlay">
               <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
+                <span class="caption">Andrew and Ava ('19) at MIT Open 2018</span>
               </div>
               <div class="table-row">
                 <span class="credit">Credit: Emily Chen</span>
+              </div>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url('https://i.imgur.com/1ZxuYCN.jpg')">
+            <div class="overlay">
+              <div class="table-row">
+                <span class="caption">Alexander (PhD '19) and Mariela at MIT Open 2019</span>
+              </div>
+              <div class="table-row">
+                <span class="credit"></span>
               </div>
             </div>
           </div>
           <div class="slide" style="background-image: url('https://i.imgur.com/qFNskCZ.jpg')">
             <div class="overlay">
               <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
+                <span class="caption">Constantin (G) and Charlotte at MIT Open 2018</span>
               </div>
               <div class="table-row">
                 <span class="credit">Credit: Emily Chen</span>
+              </div>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url('https://i.imgur.com/5bREmk2.jpg')">
+            <div class="overlay">
+              <div class="table-row">
+                <span class="caption">Jessie ('15) and Electra at MIT Open 2019</span>
+              </div>
+              <div class="table-row">
+                <span class="credit"></span>
               </div>
             </div>
           </div>
           <div class="slide" style="background-image: url('https://i.imgur.com/7ASwhAu.jpg')">
             <div class="overlay">
               <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
+                <span class="caption">Leo (SM' 15) and Dorothy at MIT Open 2018</span>
               </div>
               <div class="table-row">
                 <span class="credit">Credit: Emily Chen</span>
               </div>
             </div>
           </div>
+          <div class="slide" style="background-image: url('https://i.imgur.com/okIdYc2.jpg')">
+            <div class="overlay">
+              <div class="table-row">
+                <span class="caption">Jesse ('15) and Electra at MIT Open 2019</span>
+              </div>
+              <div class="table-row">
+                <span class="credit"></span>
+              </div>
+            </div>
+          </div>
+
 <!--
           <div class="slide" style="background-image: url('https://i.imgur.com/MoBKiTH.jpg')">
             <div class="overlay">
