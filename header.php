@@ -70,17 +70,19 @@
 
                 <a href="<?php bloginfo('url') ?>/index.php/category/upcoming-events/">Events</a>
 
-                <a href="<?php bloginfo('url') ?>/index.php/2016/06/mitempire/">MIT/Empire</a>
+                <!-- <a href="<?php bloginfo('url') ?>/index.php/2016/06/mitempire/">MIT/Empire</a> -->
 
-                <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
 
-                <a <?php if (is_page('open-dancer-hall-of-fame')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/open-dancer-hall-of-fame/">Photos</a>
 
 
                 <a <?php if (is_page('results')||is_page('team-results-archive')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/category/results">Results</a>
 
                 <a <?php if (is_page('alumni-corner')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/alumni-corner">Alumni</a>
                 <a <?php if (is_page('performances')||is_page('performance-archive')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/performances/">Performances</a>
+
+                <a <?php if (is_page('open-dancer-hall-of-fame')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/open-dancer-hall-of-fame/">Photos</a>
+
+                <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
                 </div>
               </div>
 
