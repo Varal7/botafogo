@@ -155,7 +155,7 @@
                     <!-- <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p> -->
 
 
-                    <?php the_excerpt(); ?>
+                    <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_excerpt(); ?></a>
 
 <p></p>
                <?php endwhile; ?>
@@ -203,7 +203,7 @@
                     <h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
                     <!--<p><small class="quiet"><?php the_time('F jS, Y') ?></small></p>!-->
                     <p><small class="quiet"><?php echo get_post_meta($post->ID, 'Date', true) ?></small></p>
-                    <?php the_excerpt(); ?>
+                    <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_excerpt(); ?></a>
             </div>
 
                <?php endwhile; ?>
