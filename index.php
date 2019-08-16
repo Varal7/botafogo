@@ -67,7 +67,7 @@
           <div class="slide" style="background-image: url('https://i.imgur.com/5bREmk2.jpg')">
             <div class="overlay">
               <div class="table-row">
-                <span class="caption">Jessie ('15) and Electra at MIT Open 2019</span>
+                <span class="caption">Jesse ('15) and Electra at MIT Open 2019</span>
               </div>
               <div class="table-row">
                 <span class="credit"></span>
