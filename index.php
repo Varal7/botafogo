@@ -84,6 +84,7 @@
               </div>
             </div>
           </div>
+
           <div class="slide" style="background-image: url('https://i.imgur.com/okIdYc2.jpg')">
             <div class="overlay">
               <div class="table-row">
@@ -94,50 +95,6 @@
               </div>
             </div>
           </div>
-
-<!--
-          <div class="slide" style="background-image: url('https://i.imgur.com/MoBKiTH.jpg')">
-            <div class="overlay">
-              <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
-              </div>
-              <div class="table-row">
-                <span class="credit">Credit: Emily Chen</span>
-              </div>
-            </div>
-          </div>
-          <div class="slide" style="background-image: url('https://i.imgur.com/qjC86Hg.jpg')">
-            <div class="overlay">
-              <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
-              </div>
-              <div class="table-row">
-                <span class="credit">Credit: Emily Chen</span>
-              </div>
-            </div>
-          </div>
-          <div class="slide" style="background-image: url('https://i.imgur.com/iFs69uI.jpg')">
-            <div class="overlay">
-              <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
-              </div>
-              <div class="table-row">
-                <span class="credit">Credit: Emily Chen</span>
-              </div>
-            </div>
-          </div>
-          <div class="slide" style="background-image: url('https://i.imgur.com/ciMrIhB.jpg')">
-            <div class="overlay">
-              <div class="table-row">
-                <span class="caption">Team members at MIT Open 2018</span>
-              </div>
-              <div class="table-row">
-                <span class="credit">Credit: Emily Chen</span>
-              </div>
-            </div>
-          </div>
--->
-
         </div>
       </div>
 
