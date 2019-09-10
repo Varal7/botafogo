@@ -89,7 +89,7 @@
               <a class="icon" href="http://facebook.com/mitbdt"><i class="fab fa-facebook-square"></i><span> Facebook</span></a>
               <a class="icon" href="https://www.instagram.com/mit.bdt/?hl=en"><i class="fab fa-instagram"></i><span> Instagram</span></a>
               <a class="icon" href="http://twitter.com/MIT_Ballroom/"><i class="fab fa-twitter"></i><span> Twitter</span></a>
-              <a class="icon" href="https://ballroom.quach.io/index.php/contact-us/"><i class="fa fa-envelope"></i><span> Contact</a>
+              <a class="icon" href="<?php bloginfo('url') ?>/index.php/contact-us/"><i class="fa fa-envelope"></i><span> Contact</a>
 
             </nav>
 
