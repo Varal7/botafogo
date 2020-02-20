@@ -137,9 +137,9 @@
                 <p>Join us</p>
               </div>
             </a>
-            <a id="card-donate" href="<?php bloginfo('url') ?>/index.php/giving">
+            <a id="card-donate" href="<?php bloginfo('url') ?>/comp">
               <div class="card">
-                <p>Donate</p>
+                <p>MIT Open</p>
             </div>
               </a>
           </div>

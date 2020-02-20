@@ -55,9 +55,8 @@
 
                 <a <?php if (is_page('joining-the-team')||is_page('sign-up')||is_page('dance-camp')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/join/">Join</a>
 
-                <a <?php if (is_page('giving')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/giving">Giving</a>
 
-                <!-- <a href="http://ballroom.mit.edu/comp/">MIT Open</a> -->
+                <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
 
             <div class="dropdown">
               <button class="dropbtn">More
@@ -82,7 +81,10 @@
 
                 <a <?php if (is_page('open-dancer-hall-of-fame')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/open-dancer-hall-of-fame/">Photos</a>
 
-                <a href="http://ballroom.mit.edu/comp/">MIT Open</a>
+                <a <?php if (is_page('giving')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/giving">Giving</a>
+
+                <a href="http://ballroom.mit.edu/team/">Wiki</a>
+
                 </div>
               </div>
 

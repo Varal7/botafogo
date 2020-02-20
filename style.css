@@ -167,7 +167,7 @@ nav a {
   box-sizing: border-box;
   float:left;
   height: 50px;
-  width: 80px;
+  width: 90px;
   padding: 15px 0px;
   text-align: center;
   color: #999;
@@ -196,7 +196,7 @@ nav a:hover,
   float: left;
   padding: 14px 0px;
   height: 50px;
-  width: 80px;
+  width: 100px;
   text-align: center;
   overflow: hidden;
 }
@@ -256,8 +256,16 @@ nav a:hover,
   background-color: #333;
 }
 
+@media screen and (max-width: 1000px) {
+  #title {
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+}
 
-@media screen and (max-width: 750px) {
+
+/*Responsive top nav */
+@media screen and (max-width: 767px) {
   nav a, .dropdown, .dropbtn {
     display: none;
   }
@@ -271,9 +279,6 @@ nav a:hover,
     font-size: 20px;
     padding: 15px 0px;
   }
-}
-
-@media screen and (max-width: 750px) {
   nav.responsive {
     position: fixed;
     background-color: #222;
@@ -319,6 +324,13 @@ nav a:hover,
     margin-left: 5px;
   }
 }
+
+
+
+
+
+
+
 
 /* Content */
 #content {
@@ -483,6 +495,77 @@ main {
 section {
   max-width: 1010px;
   margin: 20px auto;
+}
+
+/* Comp website specific */
+.left-sidebar-layout {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 3fr);
+}
+
+.sponsors-bottom {
+  visibility: hidden;
+}
+
+.mitopen-logo {
+  margin-top: 20px;
+}
+
+#sidebar a {
+  display: block;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#sidebar a:hover {
+  text-decoration: underline;
+}
+
+#sidebar a.current {
+  color: black;
+}
+
+#sidebar a.current:hover {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+.to-top {
+  display: none;
+  float: right;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #333;
+  margin-top: 0px;
+  padding: 10px 10px;
+}
+
+
+@media screen and (max-width: 750px) {
+  .left-sidebar-layout {
+    grid-template-columns: 1fr;
+  }
+  .sponsors-bottom {
+    visibility: visible;
+  }
+  .sponsors-top {
+    display: none;
+  }
+  #sidebar {
+    text-align:center;
+  }
+  .to-top {
+    display: block;
+  }
 }
 
 /* Events section */
