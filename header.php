@@ -83,7 +83,7 @@
 
                 <a <?php if (is_page('giving')) { echo " class=\"current\""; } ?> href="<?php bloginfo('url') ?>/index.php/giving">Giving</a>
 
-                <a class="icon" href="<?php bloginfo('url') ?>/index.php/contact-us/">Contact us</a>
+                <a href="<?php bloginfo('url') ?>/index.php/contact-us/">Contact us</a>
                 <a href="http://ballroom.mit.edu/team/">Wiki</a>
 
                 </div>
